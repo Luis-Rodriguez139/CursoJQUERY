@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="../jquery-3.1.1.min.js"></script>
+	<title></title>
+</head>
+<body>
+	<div id="midiv">Mi nombre es Luis R</div>
+
+<button id ="miboton">Click aqui</button>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('#miboton').click(function(){
+			//asi obtenemos el valor que tiene en text
+			$('#midiv').text();
+			//ai podemos agregar un texto al tag div o a una seccion
+			$('#midiv').text('agregamos un texto');
+			});
+	});
+</script>
